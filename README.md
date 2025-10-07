@@ -25,7 +25,7 @@ CREATE TABLE data_types_demo (
 
 ## 3. Realiza las sigueintes consultas:
 
-´´´sql
+```sql
 -- Obtén todos los productos disponibles con información de marca (brand) en la columns metadata
 
 -- Encuentra los artículos lanzads después de una fecha específica
@@ -35,4 +35,4 @@ CREATE TABLE data_types_demo (
 -- Muestra IP y dirección MAC
 
 -- Muestra coordenadas
-´´´
+```
