@@ -10,9 +10,9 @@ class TestDataTypesDemo(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.conn = psycopg2.connect(
-            dbname="your_database",
-            user="your_user",
-            password="your_password",
+            dbname="test_db",
+            user="postgres",
+            password="postgres",
             host="localhost",
             port="5432"
         )
