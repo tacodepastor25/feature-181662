@@ -23,12 +23,12 @@ CREATE TABLE data_types_demo (
 
 ## 2. Inserta datos de muestra
 
-## 3. Realiza las sigueintes consultas:
+## 3. Realiza las siguientes consultas:
 
 ```sql
--- Obtén todos los productos disponibles con información de marca (brand) en la columns metadata
+-- Obtén todos los productos disponibles con información de marca (brand) en la columna metadata
 
--- Encuentra los artículos lanzads después de una fecha específica
+-- Encuentra los artículos lanzados después de una fecha específica
 
 -- Busca por tag
 
