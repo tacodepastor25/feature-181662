@@ -1,6 +1,6 @@
 # T41A-P07
 
-## 1. Crea una tabla ´data_types_demo´ con los siguientes tipos de datos:
+## 1. Crea una tabla `data_types_demo` con los siguientes tipos de datos:
 ```sql
 CREATE TABLE data_types_demo (
     id                                           -- Integer auto-increment
