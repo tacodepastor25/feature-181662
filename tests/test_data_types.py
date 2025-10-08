@@ -81,6 +81,5 @@ class TestDataTypesDemo(unittest.TestCase):
         self.assertGreater(len(content), 0, "SQL file is empty")
         # Check for at least one SQL statement keyword
         self.assertRegex(content.upper(), r'\b(SELECT|INSERT|UPDATE|DELETE|CREATE)\b', "SQL file must contain valid SQL statements")
-
 if __name__ == '__main__':
     unittest.main()
