@@ -14,4 +14,18 @@ VALUES
     '{"brand": "Mac", "Color": "Negro", "Memoria": "Expandible"}', 
     ST_SetSRID(ST_MakePoint(-100.9847, 22.1498), 4326), 
     decode('42696e61727944617461', 'hex')  -- "BinaryData" en hex
+),
+(
+    'Iphone 17', 
+    'Smarthphone Gama Alta', 
+    18500.50, 
+    0.15, 
+    TRUE, 
+    '2025-10-01', 
+    '10.0.0.45', 
+    '00:1A:2B:3C:4D:5E', 
+    ARRAY['Samsung', 'Huawei', 'Apple'], 
+    '{"brand": "CompuMax", "Color": "gris", "Garanmtia": "2 años"}', 
+    ST_SetSRID(ST_MakePoint(-99.1332, 19.4326), 4326), 
+    decode('4C6170746F7042696E617279', 'hex')  -- "LaptopBinary"
 );
