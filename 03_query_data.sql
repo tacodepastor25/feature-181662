@@ -4,7 +4,7 @@ WHERE metadata ? 'brand';
 
 SELECT id, name, launch_date
 FROM data_types_demo
-WHERE launch_date > '2025-09-20';
+WHERE launch_date > '2023-04-25';
 
 SELECT id, name, tags
 FROM data_types_demo
