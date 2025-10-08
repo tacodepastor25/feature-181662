@@ -1,21 +1,14 @@
-SELECT id, name, metadata->>'brand' AS brand
-FROM data_types_demo
-WHERE metadata ? 'brand';
+-- Obtiene todos los productos disponibles con información de marca "brand" en la columna 
+SELECT * FROM data_types_demo WHERE available = TRUE  AND metadata ? 'brand';
 
-SELECT id, name, launch_date
-FROM data_types_demo
-WHERE launch_date > '2023-04-25';
+-- Encuentra los artículos lanzados después de una fecha específica
+SELECT * FROM data_types_demo WHERE launch_date > '2025-10-15';
 
-SELECT id, name, tags
-FROM data_types_demo
-WHERE 'Samsung' = ANY(tags);
+-- Busca por tag
+SELECT * FROM data_types_demo WHERE 'promoción' = ANY(tags);
 
-SELECT id, name, ip_address, mac_address
-FROM data_types_demo;
+-- Muestra IP y dirección MAC
+SELECT name, ip_address, mac_address FROM data_types_demo;
 
-SELECT 
-    id, 
-    name, 
-    ST_X(coordinates) AS longitude, 
-    ST_Y(coordinates) AS latitude
-FROM data_types_demo;
+-- Muestra coordenadas
+SELECT name, coordinates FROM data_types_demo;
