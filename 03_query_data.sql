@@ -8,7 +8,7 @@ WHERE launch_date > '2025-09-20';
 
 SELECT id, name, tags
 FROM data_types_demo
-WHERE 'tecnología' = ANY(tags);
+WHERE 'Samsung' = ANY(tags);
 
 SELECT id, name, ip_address, mac_address
 FROM data_types_demo;
