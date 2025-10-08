@@ -8,12 +8,12 @@ VALUES
     0.10, 
     TRUE, 
     '2023-04-15', 
-    '192.168.0.001', 
+    '192.168.0.1', 
     '01:10:12:34:56:78', 
     ARRAY['Samsung', 'Huawei', 'Apple'], 
     '{"brand": "Mac", "Color": "Negro", "Memoria": "Expandible"}', 
     ST_SetSRID(ST_MakePoint(-100.9847, 22.1498), 4326), 
-    decode('42696e61727944617461', 'hex')  -- "BinaryData" en hex
+    decode('42696e61727944617461', 'hex')
 ),
 (
     'Iphone 17', 
@@ -25,7 +25,8 @@ VALUES
     '10.0.0.45', 
     '00:1A:2B:3C:4D:5E', 
     ARRAY['Samsung', 'Huawei', 'Apple'], 
-    '{"brand": "CompuMax", "Color": "gris", "Garanmtia": "2 años"}', 
+    '{"brand": "CompuMax", "Color": "gris", "Garantia": "2 años"}', 
     ST_SetSRID(ST_MakePoint(-99.1332, 19.4326), 4326), 
-    decode('4C6170746F7042696E617279', 'hex')  -- "LaptopBinary"
+    decode('4C6170746F7042696E617279', 'hex')
 );
+
